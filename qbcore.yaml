@@ -96,11 +96,6 @@ tasks:
     ref: main
     src: https://github.com/AvarianKnight/pma-voice
 
-  - action: download_github
-    dest: ./resources/[voice]/qb-radio
-    ref: main
-    src: https://github.com/qbcore-framework/qb-radio
-
     # MAPS
   - action: download_github
     dest: ./resources/[defaultmaps]/hospital_map
@@ -125,11 +120,6 @@ tasks:
     dest: ./resources/[qb]/qb-core
     ref: main
     src: https://github.com/qbcore-framework/qb-core
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-scoreboard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-scoreboard
 
   - action: download_github
     dest: ./resources/[qb]/qb-adminmenu
@@ -216,11 +206,6 @@ tasks:
     dest: ./resources/[qb]/qb-radialmenu
     ref: main
     src: https://github.com/qbcore-framework/qb-radialmenu
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-crypto
-    ref: main
-    src: https://github.com/qbcore-framework/qb-crypto
 
   - action: download_github
     dest: ./resources/[qb]/qb-weathersync
